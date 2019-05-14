@@ -13,9 +13,9 @@ var usersRouter = require('./routes/users');
 var connection = mysql.createPool({
     connectionLimit : 10,
     host:'us-cdbr-iron-east-02.cleardb.net',
-    user:'b45b8fc6eeb751',
-    password:'1eb2d851',
-    database:'heroku_7a35b4f865887f5'
+    user:'b47874a72e65fc:',
+    password:'dfd6a95f',
+    database:'heroku_476a20d0ad63d97'
 
 })
 
